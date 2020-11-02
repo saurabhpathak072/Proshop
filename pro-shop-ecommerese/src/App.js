@@ -8,6 +8,8 @@ import ProductsScreen from './screens/ProductsScreen/ProductsScreen';
 import CartScreen from './screens/CartScreen/CartScreen';
 import LoginScreen from './screens/LoginScreen/LoginScreen';
 import RegisterScreen from './screens/RegisterScreen/RegisterScreen';
+import ProfileScreen from './screens/ProfileScreen/ProfileScreen';
+import ShippingScreen from './screens/ShippingScreen/ShippingScreen';
 
 function App() {
   return (
@@ -16,11 +18,17 @@ function App() {
     <Header/>
     <main className='py-3'>
       <Container>
-      <Route path='/login'>
+        <Route path='/shipping'>
+          <ShippingScreen/>
+        </Route>
+        <Route path='/login'>
           <LoginScreen/>
         </Route>
         <Route path='/register'>
           <RegisterScreen/>
+        </Route>
+        <Route path='/profile'>
+          <ProfileScreen/>
         </Route>
         <Route path='/product/:id'>
           <ProductsScreen/>

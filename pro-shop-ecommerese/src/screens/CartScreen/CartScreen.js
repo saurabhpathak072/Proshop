@@ -3,7 +3,7 @@ import {useDispatch,useSelector} from 'react-redux';
 import {Row,Col,ListGroup,Image,Form,Button,Card} from 'react-bootstrap'
 import {addToCart,removeFromCart} from '../../actions/cartActions'
 import { Link, withRouter } from 'react-router-dom';
-import Message from '../../components/Message.js/Message';
+import Message from '../../components/Message/Message';
 
 const CartScreen = ({match,location,history}) => {
     const productId = match.params.id

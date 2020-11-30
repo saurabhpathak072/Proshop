@@ -4,7 +4,7 @@ import {useDispatch,useSelector} from 'react-redux';
 import { Link, withRouter } from 'react-router-dom';
 import { listProductDetails } from '../../actions/productActions';
 import Loader from '../../components/Loader/Loader';
-import Message from '../../components/Message.js/Message';
+import Message from '../../components/Message/Message';
 import Ratings from '../../components/Ratings/Ratings';
 
 

@@ -5,7 +5,7 @@ import { withRouter,Link } from 'react-router-dom';
 import {register} from '../../actions/userActions'
 import FormContainer from '../../components/FormContainer/FormContainer';
 import Loader from '../../components/Loader/Loader';
-import Message from '../../components/Message.js/Message';
+import Message from '../../components/Message/Message';
 
 const RegisterScreen = ({location,history}) => {
     const [email, setEmail] = useState('')

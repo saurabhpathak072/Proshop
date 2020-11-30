@@ -5,7 +5,7 @@ import Product from '../../components/Product/Product';
 // import axios from 'axios';
 import {listProducts} from '../../actions/productActions';
 import Loader from '../../components/Loader/Loader';
-import Message from '../../components/Message.js/Message';
+import Message from '../../components/Message/Message';
 
 const HomeScreen = () => {
     const dispatch = useDispatch();

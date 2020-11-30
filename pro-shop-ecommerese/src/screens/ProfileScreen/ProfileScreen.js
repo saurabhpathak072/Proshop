@@ -4,7 +4,7 @@ import {useDispatch,useSelector} from 'react-redux';
 import { withRouter } from 'react-router-dom';
 import {getUserDetails,updateUserProfile} from '../../actions/userActions'
 import Loader from '../../components/Loader/Loader';
-import Message from '../../components/Message.js/Message';
+import Message from '../../components/Message/Message';
 
 const ProfileScreen = ({location,history}) => {
     const [email, setEmail] = useState('')
